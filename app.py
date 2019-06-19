@@ -34,7 +34,8 @@ class Product(db.Model):
 # Product Schema
 class ProductSchema(ma.Schema):
   class Meta:
-    fields = ('id, name, description, price, qty')
+    # Fields to Expose
+    fields = ('id', 'name', 'description', 'price', 'qty')
 
 # Initialize Product Schema
 product_schema = ProductSchema(strict=True)
