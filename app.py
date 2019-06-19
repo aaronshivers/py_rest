@@ -36,6 +36,9 @@ class ProductSchema(ma.Schema):
   class Meta:
     fields = ('id, name, description, price, qty')
 
+# Initialize Product Schema
+product_schema = ProductSchema(strict=True)
+products_schema = ProductsSchema(many=True, strict=True)
 
 @app.route('/', methods=['GET'])
 def get():
