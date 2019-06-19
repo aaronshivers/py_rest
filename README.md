@@ -27,8 +27,8 @@ python app.py
 ```
 
 ## Routes
-POST /products
-GET /products
-GET /products/:id
-PUT /products/:id
-DELETE /products/:id
++ POST /products
++ GET /products
++ GET /products/:id
++ PUT /products/:id
++ DELETE /products/:id
