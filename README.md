@@ -15,9 +15,9 @@ pipenv install
 ### Create Database
 ```
 python
-+ from app import db
-+ db.create_all()
-+ exit()
+from app import db
+db.create_all()
+exit()
 ```
 
 ### Run Server
