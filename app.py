@@ -31,6 +31,11 @@ class Product(db.Model):
     self.price = price
     self.qty = qty
 
+# Product Schema
+class ProductSchema(ma.Schema):
+  class Meta:
+    fields = ('id, name, description, price, qty')
+
 
 @app.route('/', methods=['GET'])
 def get():
