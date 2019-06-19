@@ -1,4 +1,5 @@
 # py_rest
+A RESTful API with Flask, SQL Alchemy, and Marshmallow
 
 ## Setup
 
