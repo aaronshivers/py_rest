@@ -39,7 +39,7 @@ class ProductSchema(ma.Schema):
 
 # Initialize Product Schema
 product_schema = ProductSchema(strict=True)
-products_schema = ProductsSchema(many=True, strict=True)
+products_schema = ProductSchema(many=True, strict=True)
 
 @app.route('/', methods=['GET'])
 def get():
